@@ -1,5 +1,5 @@
 {% set name = "matrix-nio" %}
-{% set version = "0.23.0" %}
+{% set version = "0.25.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/matrix_nio-{{ version }}.tar.gz
-  sha256: 24a858b962801ba12d72daa29fa34e540c9a828442fb43a822d80d9872967918
+  sha256: bb0b2233029225ce28d1feea2cef5d252d24bfb3b7a26ebfea96ad5d2dab7d03
 
 build:
   noarch: python
